@@ -1,0 +1,13 @@
+.sub-hero {
+    position: relative;
+    height: $hero-height;
+    overflow: hidden;
+    background: url(/images/trim-medium.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+
+    @include breakpoint($breakpoint-tablet) {
+        background-position: 50% 10%;
+    }
+}

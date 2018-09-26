@@ -1,0 +1,168 @@
+.services-content {
+    padding: 60px 15px;
+    background-color: $primary-color;
+    border-top: 4px solid $accent-color-1;
+
+    @include breakpoint($breakpoint-mobile) {
+        padding: 60px 50px;
+    }
+}
+
+.services-content-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+
+    @include breakpoint($breakpoint-tablet) {
+        font-size: 45px;
+    }
+}
+
+.services-secondary-text {
+    text-align: center;
+    color: $white;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-container {
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+    background-color: $secondary-color;
+    padding: 20px;
+    padding-bottom: 60px;
+    border: 2px solid $accent-color-1;
+    width: 100%;
+
+    @include breakpoint($breakpoint-mobile) {
+        max-width: 600px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-self: flex-start;
+        padding-bottom: 20px;
+    }
+
+    &:nth-child(even) {
+        @include breakpoint($breakpoint-mobile) {
+            flex-direction: row-reverse;
+            align-self: flex-end;
+        }
+    }
+
+    p {
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto;
+        line-height: 20px;
+    }
+}
+
+.service-icon {
+    margin: 0 auto;
+
+    @include breakpoint($breakpoint-mobile) {
+        margin: 0;
+        border-bottom: none;
+    }
+}
+
+.service-description {
+    margin: 0 auto;
+
+    @include breakpoint($breakpoint-mobile) {
+        margin: 0;
+    }
+}
+
+.service-header {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.service-divider {
+    border-bottom: 2px dotted;
+    border-right: none;
+    max-width: 140px;
+    width: 100%;
+    margin: 25px 0;
+
+    @include breakpoint($breakpoint-mobile) {
+        width: 0;
+        border-right: 2px dotted;
+        height: 70px;
+        // reset margin
+        margin: 0;
+    }
+}
+
+.flower-icon {
+    height: 100px;
+    width: 100px;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        stroke: $accent-color-1;
+    }
+}
+
+.quote-icon {
+    height: 100px;
+    width: 100px;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: $accent-color-1;
+    }
+}
+
+.project-managers-icon {
+    height: 100px;
+    width: 100px;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: $accent-color-1;
+    }
+}
+
+.pay-icon {
+    height: 100px;
+    width: 100px;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: $accent-color-1;
+    }
+}
+
+.nda-icon {
+    height: 100px;
+    width: 100px;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: $accent-color-1;
+    }
+}

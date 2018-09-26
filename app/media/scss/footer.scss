@@ -1,0 +1,36 @@
+footer {
+    position: relative;
+    height: auto;
+    background-color: $secondary-color;
+    border-top: 4px solid $accent-color-1;
+    padding: 15px 0;
+
+    nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    a {
+        color: $white;
+
+        svg {
+            fill: $white;
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    .footer-mail-link {
+        padding-top: 10px;
+    }
+
+    .footer-phone-text {
+        color: $white;
+        padding-top: 10px;
+    }
+}
