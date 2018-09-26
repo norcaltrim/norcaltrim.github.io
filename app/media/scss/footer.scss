@@ -25,6 +25,11 @@ footer {
         }
     }
 
+    .footer-contact-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
     .footer-mail-link {
         padding-top: 10px;
     }
