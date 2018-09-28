@@ -99,7 +99,7 @@
     @include breakpoint($breakpoint-tablet) {
         display: flex;
         flex-direction: column;
-        display: initial;
+        align-items: center;
     }
 }
 
