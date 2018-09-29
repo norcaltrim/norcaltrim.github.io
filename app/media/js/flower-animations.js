@@ -3,7 +3,6 @@ import anime from 'animejs';
 function flowerAnimations () {
     const plantSvg = document.querySelector('#plant svg');
     const plantPath = document.querySelector('#plant path');
-    console.log('plantPath', plantPath)
 
     anime({
         targets: plantSvg,
