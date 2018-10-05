@@ -40,7 +40,9 @@
 }
 
 .contact-logo-image {
-    border-radius: 170px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: $white;
     max-height: 320px;
     max-width: 320px;
 }
